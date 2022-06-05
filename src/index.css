@@ -1,0 +1,71 @@
+.usersContainer {
+  background-color: lightsalmon;
+  padding: 30px 100px;
+}
+
+.usersWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.userCard {
+  background-color: #eee;
+  height: 400px;
+  width: 350px;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.userCardTop {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  /* border-bottom: 1px solid grey; */
+}
+
+.userCardTopDetails {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.userCardContact {
+  border-top: 1px solid grey;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 19px;
+}
+
+.userCardAddress {
+  border-top: 1px solid grey;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 19px;
+}
+
+.userCardCompany {
+  border-top: 1px solid grey;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 19px;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 20px;
+}
